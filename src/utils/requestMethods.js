@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const BASE_URL = "http://localhost:5000/api/";
-const TOKEN ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmY0MDdkYTUyZGEyZDU4MTdmZTc0ZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0NzQzMDI2NSwiZXhwIjoxNjQ3Njg5NDY1fQ.LJxHnP7QFfTE1wPuozGH_JISRYoJZ9EWt9xpumzgTYY"
+const TOKEN ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMmY0MDdkYTUyZGEyZDU4MTdmZTc0ZCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0NzQ1NTkzMSwiZXhwIjoxNjQ3NzE1MTMxfQ.i2fVZUMUiIXmHCf1Q6hAb5ktfGIccqzv442a8-Hbx1U"
 
 
 

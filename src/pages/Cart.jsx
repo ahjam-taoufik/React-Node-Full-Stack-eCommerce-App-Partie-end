@@ -178,15 +178,17 @@ const Cart = () => {
       try {
         const res = await userRequest.post("/checkout/payment", {
           token: stripeToken,
-          amount: 300,
+          amount: 100,
         });
         navigate("/success"
         ,{
-          stripeData: res.data,
-          products: cart, 
+           state:{
+            stripeData: res.data,
+            cart: cart, 
+           }
         }
           );
-          console.log('okok',res.data);
+          console.log('From Cart',res.data);
       } catch {}
     };
     stripeToken && makeRequest();

@@ -60,8 +60,8 @@ const Products = ({ cat, filters, sort }) => {
 
 
 
-  console.log('from product component =========================');
-  console.log(filterproducts);
+  // console.log('from product component =========================');
+  // console.log(filterproducts);
   
 
   return (

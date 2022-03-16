@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Cart from './pages/Cart';
 import { Route, Routes } from 'react-router-dom';
+import Success from './pages/Success';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/success" element={<Success/>} />
 
        
     </Routes>
